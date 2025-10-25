@@ -2,7 +2,7 @@ import { useState } from "react";
 import WeatherCard from "./components/WeatherCard";
 import ErrorDisplay from "./components/ErrorDisplay";
 
-const App = () => {
+function App() {
   const [city, setCity] = useState("");
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState("");
@@ -69,6 +69,6 @@ const App = () => {
       )}
     </div>
   );
-};
+}
 
 export default App;
