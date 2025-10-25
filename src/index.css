@@ -20,7 +20,7 @@ body {
 h1 {
   font-size: 2rem;
   margin: 20px 0;
-  color:white;
+  color: white;
 }
 
 /* Weather Form */
@@ -116,7 +116,6 @@ button[type="submit"]:hover {
   opacity: 0.9;
 }
 
-/* Info Displays */
 .cityDisplay,
 .tempDisplay {
   font-size: 2.5rem;
